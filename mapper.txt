@@ -1,0 +1,63 @@
+$dark_bg0_hard = #000000
+$dark_bg0 = #070707
+$dark_bg0_soft = #0f0f0f
+$dark_bg1 = #171717
+$dark_bg4 = #7c6f64
+
+$gray_245 = $gray_244 = #928374;
+
+$light_bg0_hard = #ffffff
+$light_bg0 = #f7f7f7
+$light_bg0_soft = #efefef
+$light_bg1 = #e7e7e7
+$light_bg4 = #a89984
+
+################################################################################
+
+[Scheme]
+Name = Gruvbox High Contrast (Dark)
+TabActivityColor = #bf4040
+ColorForeground = $dark_fg = $light_bg1
+ColorBackground = $dark_bg0_soft | $dark_bg0 | $dark_bg0_hard
+ColorPalette =
+    $dark_bg0;
+    $neutral_red;
+    $neutral_green;
+    $neutral_yellow;
+    $neutral_blue;
+    $neutral_purple;
+    $neutral_aqua;
+    $dark_gray_246 = $light_bg4;
+    $gray_245 = $gray_244;
+    $bright_red;
+    $bright_green;
+    $bright_yellow;
+    $bright_blue;
+    $bright_purple;
+    $bright_aqua;
+    $dark_fg = $light_bg1;
+
+################################################################################
+
+[Scheme]
+Name = Gruvbox High Contrast (Light)
+TabActivityColor = #bf4040
+ColorForeground = $light_fg = $dark_bg1
+ColorBackground = $light_bg0_soft | $light_bg0 | $light_bg0_hard
+ColorPalette =
+    $light_bg0;
+    $neutral_red;
+    $neutral_green;
+    $neutral_yellow;
+    $neutral_blue;
+    $neutral_purple;
+    $neutral_aqua;
+    $light_gray_243 = $dark_bg4;
+    $gray_244 = $gray_245;
+    $faded_red;
+    $faded_green;
+    $faded_yellow;
+    $faded_blue;
+    $faded_purple;
+    $faded_aqua;
+    $light_fg = $dark_bg1;
